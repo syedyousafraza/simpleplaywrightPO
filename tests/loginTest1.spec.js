@@ -16,8 +16,8 @@ test('Login Test', async ({ page }) => {
 
     // Add assertions or further actions after login if needed
     const pageTitle = await page.title();
-    console.log("this we get" + pageTitle);
+    console.log("this we get as title " + pageTitle);
     // Verify the title
     expect(pageTitle).toBe('Swag Labs');
-
+ //end
 });
