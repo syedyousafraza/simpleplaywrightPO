@@ -15,7 +15,8 @@ const { LoginPage } = require('../pages/loginPage');
         const password = 'secret_sauce'; // Update with your password
         await loginPage.navigateToLoginPage(url);
         await loginPage.login(username, password);
-        
+        console.log("URL is open")
+
         // You can add assertions or further actions after login if needed
 
 
